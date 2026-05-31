@@ -21,7 +21,9 @@ One file. No build step. 19 platforms. 4 layouts. Compatible with vanilla JS, Re
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (CDN)
+
+Use the standalone JavaScript file directly in your page:
 
 ```html
 <button id="btn-share">Share</button>
@@ -36,7 +38,39 @@ One file. No build step. 19 platforms. 4 layouts. Compatible with vanilla JS, Re
 </script>
 ```
 
-That's it.
+✨ That's it your share panel is ready.
+
+---
+
+## 🚀 Quick Start (NPM)
+
+### 1. Install
+
+```bash
+npm i lionra-sharepanel
+```
+
+### 2. Import and initialize
+
+```js
+import SharePanel from "lionra-sharepanel";
+
+SharePanel.init({
+  trigger: "#btn-share",
+  name: "My App",
+  accent: "#00e676",
+});
+```
+
+### 3. Add a trigger element
+
+```html
+<button id="btn-share">Share</button>
+```
+
+### 4. Done 🎉
+
+Your share panel is now fully functional.
 
 ---
 
